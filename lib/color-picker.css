@@ -26,6 +26,7 @@ droplit-color-picker {
     left: 0;
     border: solid 1px #ddd;
     user-select: none;
+    pointer-events: none
 }
 
 .cover {
@@ -37,6 +38,7 @@ droplit-color-picker {
     left: 20%;
     position: absolute;
     user-select: none;
+    pointer-events: none
 }
 
 .selected-color {
@@ -48,4 +50,5 @@ droplit-color-picker {
     left: 35%;
     position: absolute;
     user-select: none;
+    pointer-events: none
 }
