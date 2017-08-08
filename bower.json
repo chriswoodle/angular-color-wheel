@@ -1,0 +1,17 @@
+{
+  "name": "angular-color-wheel",
+  "authors": [
+    "Chris Woodle <chris@droplit.io>"
+  ],
+  "description": "An angular 1.x color picker for mobile.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.6.5"
+  },
+  "ignore": [
+    "bower_components",
+    "test"
+  ]
+}
