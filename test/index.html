@@ -6,5 +6,10 @@
 </head>
 
 <body ng-app="app">
-    <droplit-color-picker></droplit-color-picker>
+    <div ng-controller="MyController">
+        <droplit-color-picker hue='hue' range='range'></droplit-color-picker>
+        <div>
+            <span ng-bind="hue"></span>
+        </div>
+    </div>
 </body>

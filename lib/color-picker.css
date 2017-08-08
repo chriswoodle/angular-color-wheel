@@ -1,15 +1,22 @@
+droplit-color-picker {
+    display: block;
+    height: 200px;
+    width: 200px;
+    user-select: none;
+}
+
 .palette {
-    margin-top: 40px;
-    height: 800px;
-    width: 800px;
+    height: 100%;
+    width: 100%;
     background: transparent url('wheel.png') no-repeat;
     background-size: 100% 100%;
     border-radius: 50%;
     position: relative;
     user-select: none;
+    display: inline-block;
 }
 
-.dot {
+.handle {
     height: 10%;
     width: 10%;
     background-color: white;
@@ -28,6 +35,17 @@
     width: 60%;
     top: 20%;
     left: 20%;
+    position: absolute;
+    user-select: none;
+}
+
+.selected-color {
+    border-radius: 50%;
+    background-color: white;
+    height: 30%;
+    width: 30%;
+    top: 35%;
+    left: 35%;
     position: absolute;
     user-select: none;
 }
