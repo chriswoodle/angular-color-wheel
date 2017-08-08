@@ -4,11 +4,14 @@
     "Chris Woodle <chris@droplit.io>"
   ],
   "description": "An angular 1.x color picker for mobile.",
-  "main": "",
+  "main": [
+    "lib/color-picker.js",
+    "lib/color-picker.css"
+  ],
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "angular": "^1.6.5"
+    "angular": "^1.2.3"
   },
   "ignore": [
     "bower_components",
