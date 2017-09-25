@@ -26,7 +26,7 @@ Finally, add the directive to your html:
 ```
 
 ## Demo/Test
-Clone the repo, `bower isntall` and open `test/index.html` in your browser.
+Clone the repo, `bower install` and open `test/index.html` in your browser.
 
 ## Contributors
 * Chris Woodle
