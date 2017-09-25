@@ -1,6 +1,8 @@
 # angular-color-wheel
 A Simple hue color picker.
 
+![demo](https://github.com/chriswoodle/angular-color-wheel/blob/master/test/demo.png?raw=true)
+
 ### Features
 * Control can be resized with css.
 * Mobile support for use in Cordova (tested in iOS and Android)
