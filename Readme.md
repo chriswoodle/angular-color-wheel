@@ -27,6 +27,18 @@ Finally, add the directive to your html:
 <droplit-color-picker hue="hue" range="range"></droplit-color-picker>
 ```
 
+## Docs
+
+The picker is not currently responsive and it's size is set initially with css.
+
+### `range`
+
+Sets the range of the picker `hue` value.  
+
+### `hue`
+
+This is the current value of the picker, between 0 to `range`.
+
 ## Demo/Test
 Clone the repo, `bower install` and open `test/index.html` in your browser.
 
